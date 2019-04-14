@@ -59,4 +59,6 @@
 - cd okoswebteszt
 - php progi.php
 
------------------------------------              
+-----------------------------------
+
+(Halado linkbanyaszat: config.php)
