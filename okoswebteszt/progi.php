@@ -738,8 +738,9 @@ askscan:
             if ($latestversion > $rhversion)
               {
                 echo $bold . $fgreen . "\n\n[U] Frissites elerheto \n" . $cln;
-                echo $bold . $white . "Link: https://github.com/cybetyar/okoswebteszt\n\n" . $cln;
+                echo $bold . $white . "    Link: https://github.com/Tuhinshubhra/RED_HAWK\n\n" . $cln;
               }
+              
 
             elseif ($rhversion == $latestversion)
               {
