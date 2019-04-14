@@ -734,10 +734,10 @@ askscan:
             echo $bold . "[i] Frissites betoltese .... \n" . $cln;
             $latestversion = readcontents("https://raw.githubusercontent.com/Tuhinshubhra/RED_HAWK/master/version.txt");
             echo $bold . $blue . "[C] Jelenlegi verzio: " . $rhversion . $cln;
-            echo "\n" . $bold . $lblue . "[L] Latest VersionLegfrissebb verzio
+            echo "\n" . $bold . $lblue . "[L] Legfrissebb verzio
             if ($latestversion > $rhversion)
               {
-                echo $bold . $fgreen . "\n\n[U] Frissites elerheto \n" . $cln;
+                echo $bold . $fgreen . "\n\n [U] Frissites elerheto \n" . $cln;
                 echo $bold . $white . "    Link: https://github.com/cybetyar/webtesztprogram\n\n" . $cln;
               }
 
