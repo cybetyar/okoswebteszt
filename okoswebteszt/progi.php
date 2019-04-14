@@ -740,7 +740,6 @@ askscan:
                 echo $bold . $fgreen . "\n[U] Frissites elerheto \n\n" . $cln;
                 echo $bold . $white . "<a href="https://github.com/cybetyar/okoswebteszt\\">Itt</a>" . $cln;
               }
-              
 
             elseif ($rhversion == $latestversion)
               {
