@@ -738,7 +738,7 @@ askscan:
             if ($latestversion > $rhversion)
               {
                 echo $bold . $fgreen . "\n[U] Frissites elerheto \n\n" . $cln;
-                echo $bold . $white . "\nLink: https://github.com/Tuhinshubhra/RED_HAWK\n\n" . $cln;
+                echo $bold . $white . "<a href="https://github.com/cybetyar/okoswebteszt\\">Itt</a>" . $cln;
               }
               
 
