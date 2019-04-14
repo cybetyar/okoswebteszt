@@ -861,7 +861,7 @@ askscan:
             echo $resultscal;
             echo "\n\n";
 
-            echo "\n\n$bold" . $lblue . "Port zkenner\n";
+            echo "\n\n$bold" . $lblue . "Port szkenner\n";
             echo "============================";
             echo "\n\n$cln";
             $urlnmap    = "http://api.hackertarget.com/nmap/?q=" . $lwwww;
