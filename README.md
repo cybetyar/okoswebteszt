@@ -1,5 +1,14 @@
 # CYBEtyaR Weboldal Sebezhetoseg Tesztelo Program             
 
+<pre>
+
+   ____  __   __  ____    _____   _                     ____  
+  / ___| \ \ / / | __ )  | ____| | |_   _   _    __ _  |  _ \ 
+ | |      \ V /  |  _ \  |  _|   | __| | | | |  / _` | | |_) |
+ | |___    | |   | |_) | | |___  | |_  | |_| | | (_| | |  _ < 
+  \____|   |_|   |____/  |_____|  \__|  \__, |  \__,_| |_| \_\
+                                        |___/                 
+</pre>
 
 #### KIZAROLAG OKTATASI CELOKRA KESZULT, CSAK SAJAT FELELOSEGRE HASZNALD! A CYBEtyaR SEMMILYEN KARESEMENYRE NEM VALLAL FELEOSEGET!
 
@@ -43,8 +52,10 @@
 # Telepites:
 - Inditsd el a programot, es valaszd a FIX(F) funkciot a szukseges konyvtarak telepitesehez
 
+---------------------------------
+
 # Futtatas:
-- git clone https://github.com/
+- git clone https://github.com/cybetyar/okoswebteszt
 - cd okoswebteszt
 - php progi.php
 
