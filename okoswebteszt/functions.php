@@ -1,5 +1,5 @@
 <?php
-//functions for okoswebteszt
+//okoswebteszt funkciok
 function getTitle($url) {
   $data = readcontents($url);
   $title = preg_match('/<title[^>]*>(.*?)<\/title>/ims', $data, $matches) ? $matches[1] : null;
@@ -108,14 +108,14 @@ function robotsdottxt($reallink){
       else
         {
           echo "\e[92mFound \e[0m\n";
-          echo "\e[36m\n-------------[ contents ]----------------  \e[0m\n";
+          echo "\e[36m\n-------------[ tartalom ]----------------  \e[0m\n";
           echo $rbtcontent;
-          echo "\e[36m\n-----------[end of contents]-------------\e[0m";
+          echo "\e[36m\n-----------[tartalom vege]-------------\e[0m";
         }
     }
   else
     {
-      echo "\e[91mNem talalt robots.txt! \e[0m\n";
+      echo "\e[91mNem talalt robots.txt-t! \e[0m\n";
     }
 }
 function gethttpheader($reallink){
@@ -127,8 +127,8 @@ function gethttpheader($reallink){
 
 }
 function extract_social_links($sourcecode){
-  /* This is really a simple code for now i will work around it on the upcoming version.
-     For now only these social media are supported:
+  /* Kozossegi mediahoz kotheto linkek
+     Tamogatott:
       - Facebook
       - Twitter
       - Instagram
@@ -206,7 +206,7 @@ function extract_social_links($sourcecode){
       array_push($social_links_array['pinterest'], $link);
     }
     else {
-      // I know this has nothing to do with the code but again i love comments ;__; it's feels good to waste time :p
+      // Kiegeszites
     }
   }
   if ($total_social_link_count == 0){
