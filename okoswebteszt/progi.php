@@ -732,7 +732,7 @@ askscan:
           {
             echo "\n\n" . $bold . $yellow . "-[ Program frissitese]-\n\n" . $cln;
             echo $bold . "[i] Frissites betoltese .... \n" . $cln;
-            $latestversion = readcontents("https://raw.githubusercontent.com/Tuhinshubhra/RED_HAWK/master/version.txt");
+            $latestversion = readcontents("https://raw.githubusercontent.com/cybetyar/okoswebteszt/master/okoswebteszt/version.txt");
             echo $bold . $blue . "[C] Jelenlegi verzio: " . $rhversion . $cln;
             echo "\n" . $bold . $lblue . "[L] Legfrissebb verzio
             if ($latestversion > $rhversion)
