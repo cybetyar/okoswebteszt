@@ -1,5 +1,5 @@
 <?php
-//functions for RED HAWK
+//functions for okoswebteszt
 function getTitle($url) {
   $data = readcontents($url);
   $title = preg_match('/<title[^>]*>(.*?)<\/title>/ims', $data, $matches) ? $matches[1] : null;
@@ -24,7 +24,7 @@ function WEBserver($urlws){
   }
   if ($ws == "")
     {
-      echo "\e[91mCould Not Detect\e[0m";
+      echo "\e[91mNincs eredmeny\e[0m";
     }
   else
     {
@@ -39,11 +39,11 @@ function cloudflaredetect($reallink){
   $resulthh = file_get_contents($urlhh);
   if (strpos($resulthh, 'cloudflare') !== false)
     {
-      echo "\e[91mDetected\n\e[0m";
+      echo "\e[91mTalalat\n\e[0m";
     }
   else
     {
-      echo "\e[92mNot Detected\n\e[0m";
+      echo "\e[92mNincs talalat\n\e[0m";
     }
 }
 
@@ -103,7 +103,7 @@ function robotsdottxt($reallink){
       $rbtcontent = readcontents($rbturl);
       if ($rbtcontent == "")
         {
-          echo "Found But Empty!";
+          echo "Van talalat, de ures";
         }
       else
         {
@@ -115,7 +115,7 @@ function robotsdottxt($reallink){
     }
   else
     {
-      echo "\e[91mCould NOT Find robots.txt! \e[0m\n";
+      echo "\e[91mNem talalt robots.txt! \e[0m\n";
     }
 }
 function gethttpheader($reallink){
@@ -210,11 +210,11 @@ function extract_social_links($sourcecode){
     }
   }
   if ($total_social_link_count == 0){
-    echo $bold . $red . "[!] No Social Link Found In Source Code. \n\e[0m";
+    echo $bold . $red . "[!] Nem talalt kozossegi mediahoz kapcsolodo linket \n\e[0m";
   }
   elseif ($total_social_link_count == "1") {
     // As much as i hate to admit grammer is important :p
-    echo $bold . $lblue . "[i] " . $fgreen . $total_social_link_count . $lblue . " Social Link Was Gathered From Source Code \n\n";
+    echo $bold . $lblue . "[i] " . $fgreen . $total_social_link_count . $lblue . " Talalt kozossegi mediahoz kapcsolodo linket \n\n";
     foreach ($social_links_array['facebook'] as $link) {
       echo $bold . $blue . "[ facebook  ] " . $white . $link . "\n";
     }
@@ -238,7 +238,7 @@ function extract_social_links($sourcecode){
     }
     echo "\n";
   } else {
-    echo $bold . $lblue . "[i] " . $fgreen . $total_social_link_count . $lblue . " Social Links Were Gathered From Source Code \n\n";
+    echo $bold . $lblue . "[i] " . $fgreen . $total_social_link_count . $lblue . " Talalt kozossegi mediahoz kapcsolodo linket \n\n";
     foreach ($social_links_array['facebook'] as $link) {
       echo $bold . $blue . "[ facebook  ] " . $white . $link . "\n";
     }
@@ -281,8 +281,8 @@ function extractLINKS($reallink){
   foreach ($elinks as $ec) {
     $elinks_count++;
   }
-  echo $bold . $lblue . "[i] Number Of Links Found In Source Code : " . $fgreen . $elinks_count . "\n";
-  userinput("Display Links ? (Y/N) ");
+  echo $bold . $lblue . "[i] Linkek szama : " . $fgreen . $elinks_count . "\n";
+  userinput("Kilistazza a program ? (Y/N) ");
   $bv_show_links = trim(fgets(STDIN, 1024));
   if ($bv_show_links == "y" or $bv_show_links =="Y"){
     foreach ($elinks as $elink) {
@@ -351,8 +351,8 @@ function bv_moz_info($url){
   	curl_close($curlhandle);
   	$resObj = json_decode($content);
     echo $bold . $lblue . "[i] Moz Rank : " . $fgreen . $resObj->{'umrp'} . "\n";
-  	echo $bold . $lblue . "[i] Domain Authority : " . $fgreen . $resObj->{'pda'} . "\n";
-  	echo $bold . $lblue . "[i] Page Authority : " . $fgreen . $resObj->{'upa'} . "\n";
+  	echo $bold . $lblue . "[i] Domain Jogosultsag : " . $fgreen . $resObj->{'pda'} . "\n";
+  	echo $bold . $lblue . "[i] Oldal Jogosultsag : " . $fgreen . $resObj->{'upa'} . "\n";
   }
 }
 ?>
