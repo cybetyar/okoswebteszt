@@ -29,12 +29,12 @@ KIZAROLAG OKTATASI CELOKRA KESZULT, CSAK SAJAT FELELOSEGRE HASZNALD! A CYBEtyaR 
 \e[97m [$] Hivatalos Telegram Csatorna: @cybetyar | cybetyar@gmail.com
 \e[32m
   \n";
-  echo $bold . $fgreen . "\n   ____  __   __  ____    _____   _                     ____  \n";
-  echo $bold . $fgreen . "\n  / ___| \ \ / / | __ )  | ____| | |_   _   _    __ _  |  _ \ \n";
-  echo $bold . $fgreen . "\n | |      \ V /  |  _ \  |  _|   | __| | | | |  / _` | | |_) |\n";
-  echo $bold . $fgreen . "\n | |___    | |   | |_) | | |___  | |_  | |_| | | (_| | |  _ < \n";
-  echo $bold . $fgreen . "\n  \____|   |_|   |____/  |_____|  \__|  \__, |  \__,_| |_| \_\\n";
-  echo $bold . $fgreen . "\n                                        |___/                 \n";
+  echo $bold . $fgreen . "   ____  __   __  ____    _____   _                     ____  \n";
+  echo $bold . $fgreen . "  / ___| \ \ / / | __ )  | ____| | |_   _   _    __ _  |  _ \ \n";
+  echo $bold . $fgreen . " | |      \ V /  |  _ \  |  _|   | __| | | | |  / _` | | |_) |\n";
+  echo $bold . $fgreen . " | |___    | |   | |_) | | |___  | |_  | |_| | | (_| | |  _ < \n";
+  echo $bold . $fgreen . "  \____|   |_|   |____/  |_____|  \__|  \__, |  \__,_| |_| \_\\n";
+  echo $bold . $fgreen . "                                        |___/                 \n";
  
 }
 ?>
