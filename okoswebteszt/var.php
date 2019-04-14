@@ -24,17 +24,18 @@ $bold   = "\e[1m";
 function redhawk_banner(){
   echo "\e[91;1m
 Osszetett Weboldal Tesztelo\e[36m Egyszeru\e[91m Es\e[32m Nagyszeru\e[91m
+
+KIZAROLAG OKTATASI CELOKRA KESZULT, CSAK SAJAT FELELOSEGRE HASZNALD! A CYBEtyaR SEMMILYEN KARESEMENYRE NEM VALLAL FELEOSEGET!
+\e[97m [$] Hivatalos Telegram Csatorna: @cybetyar | cybetyar@gmail.com
+\e[32m
+  \n";
+  echo "<pre>
    ____  __   __  ____    _____   _                     ____  
   / ___| \ \ / / | __ )  | ____| | |_   _   _    __ _  |  _ \ 
  | |      \ V /  |  _ \  |  _|   | __| | | | |  / _` | | |_) |
  | |___    | |   | |_) | | |___  | |_  | |_| | | (_| | |  _ < 
   \____|   |_|   |____/  |_____|  \__|  \__, |  \__,_| |_| \_\
                                         |___/                 
-
-
-         KIZAROLAG OKTATASI CELOKRA KESZULT, CSAK SAJAT FELELOSEGRE HASZNALD! A CYBEtyaR SEMMILYEN KARESEMENYRE NEM VALLAL FELEOSEGET!
-                                                                  \e[97m [$] Hivatalos Telegram Csatorna: @cybetyar | cybetyar@gmail.com
-\e[32m
-  \n";
+</pre>";
 }
 ?>
