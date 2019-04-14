@@ -52,6 +52,10 @@
 # Telepites:
 - Inditsd el a programot, es valaszd a FIX(F) funkciot a szukseges konyvtarak telepitesehez
 
+A program PHP nyelvben irodott, a program futtatasahoz szukseges a PHP telepitese:
+---------------------------------
+https://www.php.net/manual/en/install.php
+
 ---------------------------------
 
 # Futtatas:
