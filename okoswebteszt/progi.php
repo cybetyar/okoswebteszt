@@ -737,8 +737,8 @@ askscan:
             echo "\n" . $bold . $lblue . "[L] Legfrissebb verzio
             if ($latestversion > $rhversion)
               {
-                echo $bold . $fgreen . "\n\n [U] Frissites elerheto \n\n" . $cln;
-                echo $bold . $white . "    Link: https://github.com/cybetyar/webtesztprogram\n\n" . $cln;
+                echo $bold . $fgreen . "\n [U] Frissites elerheto \n\n" . $cln;
+                echo $bold . $white . "    Link: https:github.com/cybetyar/webtesztprogram\n\n" . $cln;
               }
 
             elseif ($rhversion == $latestversion)
