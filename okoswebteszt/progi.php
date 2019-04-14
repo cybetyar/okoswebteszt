@@ -734,11 +734,11 @@ askscan:
             echo $bold . "[i] Frissites betoltese .... \n" . $cln;
             $latestversion = readcontents("https://raw.githubusercontent.com/cybetyar/okoswebteszt/master/okoswebteszt/version.txt");
             echo $bold . $blue . "[C] Jelenlegi verzio: " . $rhversion . $cln;
-            echo "\n" . $bold . $lblue . "[L] Legfrissebb verzio
+            echo "\n" . $bold . $lblue . "[L] Legfrissebb verzio " . $latestversion . $cln;
             if ($latestversion > $rhversion)
               {
                 echo $bold . $fgreen . "\n[U] Frissites elerheto \n\n" . $cln;
-                echo $bold . $white . "<a href="https://github.com/cybetyar/okoswebteszt\\">Itt</a>" . $cln;
+                echo $bold . $white . "    Link: https://github.com/cybetyar/okoswebteszt\n\n" . $cln;
               }
 
             elseif ($rhversion == $latestversion)
