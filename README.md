@@ -51,7 +51,11 @@
 ---------------------------------
 
 # Telepites:
-- Inditsd el a programot, es valaszd a FIX(F) funkciot a szukseges konyvtarak telepitesehez
+- git clone https://github.com/cybetyar/okoswebteszt
+- cd ~okoswebteszt/okoswebteszt
+- php progi.php
+- Valaszd a FIX(F) funkciot a szukseges konyvtarak telepitesehez
+- Inditsd ujra a programot
 
 A program PHP nyelvben irodott, a program futtatasahoz szukseges a PHP telepitese:
 ---------------------------------
@@ -60,9 +64,9 @@ https://www.php.net/manual/en/install.php
 ---------------------------------
 
 # Futtatas:
-- git clone https://github.com/cybetyar/okoswebteszt
-- cd okoswebteszt
+- cd ~okoswebteszt/okoswebteszt
 - php progi.php
+- Valassz funkciot (Segitseg: "help")
 
 -----------------------------------
 
