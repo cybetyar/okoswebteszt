@@ -1,0 +1,8 @@
+
+ - admin.ini : lista admin oldalak es admin konyvtarak keresesehez
+ - backup.ini : lista biztonsagi menteseket tartalmazo konyvtarak keresesehez
+
+Szabadon szerkesztheto
+
+Elvalasztashoz ezt hasznald: ","
+-------------------------------
