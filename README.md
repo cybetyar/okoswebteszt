@@ -1,11 +1,11 @@
-# CYBEtyaR Weboldal Sebezhetoseg Tesztelo Program
-
--   ____  __   __  ____    _____   _                     ____  
--  / ___| \ \ / / | __ )  | ____| | |_   _   _    __ _  |  _ \ 
-- | |      \ V /  |  _ \  |  _|   | __| | | | |  / _` | | |_) |
-- | |___    | |   | |_) | | |___  | |_  | |_| | | (_| | |  _ < 
--  \____|   |_|   |____/  |_____|  \__|  \__, |  \__,_| |_| \_\
+   ____  __   __  ____    _____   _                     ____  
+  / ___| \ \ / / | __ )  | ____| | |_   _   _    __ _  |  _ \ 
+ | |      \ V /  |  _ \  |  _|   | __| | | | |  / _` | | |_) |
+ | |___    | |   | |_) | | |___  | |_  | |_| | | (_| | |  _ < 
+  \____|   |_|   |____/  |_____|  \__|  \__, |  \__,_| |_| \_\
                                         |___/                 
+
+# CYBEtyaR Weboldal Sebezhetoseg Tesztelo Program             
 
 
 #### KIZAROLAG OKTATASI CELOKRA KESZULT, CSAK SAJAT FELELOSEGRE HASZNALD! A CYBEtyaR SEMMILYEN KARESEMENYRE NEM VALLAL FELEOSEGET!
