@@ -30,7 +30,7 @@ if ($ip == "help")
     echo "========\n";
     echo $fgreen . "[1] help:$cln A segitseg menube\n";
     echo $bold . $fgreen . "[2] fix:$cln Az osszes szukseges modul telepitese (Ha eloszor hasznalod a programot, ez kell neked :) )\n";
-    echo $bold . $fgreen . "[3] URL:$cln Ird be a tesztelni kivant weboldal URL-jet (Pelda:www.sample.com / sample.com)\n";
+    echo $bold . $fgreen . "[3] URL:$cln Ird be a tesztelni kivant weboldal URL-jet (Pelda:www.pelda.com / pelda.com)\n";
     goto thephuckinstart;
   }
 elseif ($ip == "fix")
@@ -81,7 +81,7 @@ elseif (strpos($ip, ' ') !== false)
 else
   {
     echo "\n";
-    userinput("URI-sema: 1-HTTP 2-HTTPS (Utsd be a szamot)");
+    userinput("URI-sema: 1-HTTP 2-HTTPS (Ird be a szamot)");
     echo $cln . $bold . $fgreen;
     $ipsl = trim(fgets(STDIN, 1024));
     if ($ipsl == "2")
