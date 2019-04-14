@@ -61,4 +61,15 @@
 
 -----------------------------------
 
-(Halado linkbanyaszat: config.php)
+(Halado opcio meg tobb informacio kinyereseehez: config.php)
+
+-----------------------------------
+
+Koszonjuk az otletet!
+-----------------------------------
+Hivatalos Telegram Csatornank: t.me/cybetyar
+-----------------------------------
+(Megkereseseket ide varunk: cybetyar gmail com)
+-----------------------------------
+
+"At the end of the day, my goal was to be the best hacker" - Kevin Mitnick
